@@ -1,0 +1,10 @@
+# reference screenshots and leftovers, not part of the site
+IMG_*.jpeg
+Screenshot*.png
+make-placeholders.py
+img/paper.png
+.DS_Store
+
+# the custom domain file. held back so the github.io preview works.
+# delete this line when we go live on specialhugband.com.
+CNAME

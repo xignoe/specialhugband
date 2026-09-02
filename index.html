@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>special hug</title>
+<meta name="description" content="special hug is a fairy grunge band from philadelphia. shows, music, and how to reach us.">
+<meta name="theme-color" content="#120a1f">
+<meta property="og:title" content="special hug">
+<meta property="og:description" content="fairy grunge from philadelphia. shows, music, contact.">
+<meta property="og:url" content="https://specialhugband.com/">
+<meta property="og:image" content="https://specialhugband.com/img/photo-4.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23120a1f'/%3E%3Ctext x='16' y='24' font-size='24' text-anchor='middle' fill='%23d62096'%3E%E2%9C%A7%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">skip to content</a>
+
+<div class="page">
+
+<header>
+  <!-- wordmark: img/wordmark.png is drawn by make-gfx.py. when the hand-drawn logo is ready,
+       point this img at it instead and keep the alt text. -->
+  <h1><img src="img/wordmark.png" alt="special hug" width="378" height="72"></h1>
+  <p class="tagline"><img src="img/sparkle.gif" alt="" width="16" height="16"> philadelphia fairy grunge <img src="img/sparkle.gif" alt="" width="16" height="16"></p>
+
+  <!-- the scrolling banner. edit the words, keep it short. -->
+  <p class="marquee"><span>hi we're special hug! &#10023; next show: thu sept 10 at the meatlocker, montclair nj &#10023; thanks for stopping by &#10023;</span></p>
+
+  <nav aria-label="sections">
+    <ul>
+      <li><a href="#shows">shows</a></li>
+      <li><a href="#music">music</a></li>
+      <li><a href="#merch">merch</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- the hero: latest release. when a new song drops:
+       1. save its cover over img/severance.jpg (or a new name, and change the src below)
+       2. change the title in make-gfx.py and run it, so img/h-severance.png says the new name
+       3. swap the four links and the video link
+       4. update the alt text -->
+  <section class="hero" aria-labelledby="hero-h">
+    <p class="outnow"><img src="img/outnow.gif" alt="new single, out now!" width="204" height="22"></p>
+    <a class="cover" href="https://open.spotify.com/track/1E4Ltd2vjvPJjS4cwUO0IX"><img class="photo" src="img/severance.jpg" alt="severance cover art: faith upside down with her hair floating among purple butterflies" width="600" height="600"></a>
+    <h2 id="hero-h"><img src="img/h-severance.png" alt="severance" width="224" height="48"></h2>
+    <ul class="buttons">
+      <li><a href="https://open.spotify.com/track/1E4Ltd2vjvPJjS4cwUO0IX"><img src="img/btn-spotify.png" alt="listen on spotify" width="88" height="31"></a></li>
+      <li><a href="https://music.apple.com/us/album/severance-single/1872690645"><img src="img/btn-apple.png" alt="listen on apple music" width="88" height="31"></a></li>
+      <li><a href="https://specialhug.bandcamp.com/track/severance"><img src="img/btn-bandcamp.png" alt="listen on bandcamp" width="88" height="31"></a></li>
+      <li><a href="https://youtu.be/V2KcJSSF6cY"><img src="img/btn-youtube.png" alt="listen on youtube" width="88" height="31"></a></li>
+    </ul>
+    <p class="video"><a href="https://youtu.be/GuyAZO6E5kk">watch the music video</a></p>
+  </section>
+
+  <img class="divider" src="img/divider.gif" alt="" width="440" height="10">
+
+  <!-- photos: to swap one in, save your photo over img/photo-N.jpg (square looks best)
+       and change the alt text to say what is in the picture. nothing else to edit. -->
+  <ul class="photos" aria-label="photos">
+    <li><img class="photo" src="img/photo-1.jpg" alt="faith singing and playing guitar at a show, a bandmate on guitar beside her, everything lit green" width="800" height="800" loading="eager"></li>
+    <li><img class="photo" src="img/photo-2.jpg" alt="the band on a stage under blue light, faith at center with her guitar" width="800" height="800" loading="lazy"></li>
+    <li><img class="photo" src="img/photo-3.jpg" alt="the four of us in a garden at night, dressed in black and purple" width="800" height="800" loading="lazy"></li>
+    <li><img class="photo" src="img/photo-4.jpg" alt="the band standing in front of a butterfly mural that reads special hug, how american of me" width="800" height="800" loading="lazy"></li>
+    <li><img class="photo" src="img/photo-5.jpg" alt="faith playing a telecaster outside, a still from the severance music video" width="800" height="800" loading="lazy"></li>
+    <li><img class="photo" src="img/photo-6.jpg" alt="faith sitting on a stone monument, the warm body single art" width="800" height="800" loading="lazy"></li>
+  </ul>
+
+  <img class="divider" src="img/divider.gif" alt="" width="440" height="10">
+
+  <section id="shows" aria-labelledby="shows-h">
+    <h2 id="shows-h"><img src="img/h-shows.png" alt="shows" width="156" height="36"></h2>
+
+    <!-- to add a show, copy one <li> ... </li> block and edit it. newest at the bottom.
+         the blinking new! badge is the <img class="new"> line; move it to whichever show is newest, or delete it.
+         keep the datetime in yyyy-mm-ddThh:mm format. -->
+    <ul class="shows">
+      <li>
+        <time datetime="2026-09-10T21:30">thu sept 10, 2026</time>
+        <img class="new" src="img/new.gif" alt="new!" width="42" height="22">
+        <span class="where">the meatlocker, 8 park st, montclair nj</span>
+        <span class="details">doors 9pm, show 9:30pm, $15 at the door</span>
+        <span class="with">w/ polaroids, starlily, falling into light</span>
+      </li>
+    </ul>
+
+    <p class="none">new shows get posted here and on <a href="https://www.instagram.com/specialhugband/">instagram</a>.</p>
+  </section>
+
+  <img class="divider" src="img/divider.gif" alt="" width="440" height="10">
+
+  <section id="music" aria-labelledby="music-h">
+    <h2 id="music-h"><img src="img/h-music.png" alt="music" width="150" height="36"></h2>
+    <p>listen wherever you listen:</p>
+    <ul class="buttons">
+      <li><a href="https://open.spotify.com/artist/20tIibCsGAxUKCDWJUXDM1"><img src="img/btn-spotify.png" alt="spotify" width="88" height="31"></a></li>
+      <li><a href="https://music.apple.com/us/artist/special-hug/1676825727"><img src="img/btn-apple.png" alt="apple music" width="88" height="31"></a></li>
+      <li><a href="https://specialhug.bandcamp.com"><img src="img/btn-bandcamp.png" alt="bandcamp" width="88" height="31"></a></li>
+      <li><a href="https://www.youtube.com/channel/UCkt4TlOVBF4AONBR2CaFy0Q"><img src="img/btn-youtube.png" alt="youtube" width="88" height="31"></a></li>
+    </ul>
+  </section>
+
+  <img class="divider" src="img/divider.gif" alt="" width="440" height="10">
+
+  <section id="merch" aria-labelledby="merch-h">
+    <h2 id="merch-h"><img src="img/h-merch.png" alt="merch" width="156" height="36"></h2>
+    <p><a href="https://specialhug.bandcamp.com/merch"><img src="img/btn-merch.png" alt="click here for merch" width="246" height="36"></a></p>
+  </section>
+
+  <img class="divider" src="img/divider.gif" alt="" width="440" height="10">
+
+  <section id="about" aria-labelledby="about-h">
+    <h2 id="about-h"><img src="img/h-about.png" alt="about" width="156" height="36"></h2>
+    <p>special hug is a fairy grunge band from philadelphia.</p>
+
+    <table class="members">
+      <tr><td>faith</td><td>vocals, viola, guitar</td></tr>
+      <tr><td>john</td><td>drums</td></tr>
+      <tr><td>kollin</td><td>bass</td></tr>
+      <tr><td>cornelius</td><td>guitar</td></tr>
+    </table>
+  </section>
+
+  <img class="divider" src="img/divider.gif" alt="" width="440" height="10">
+
+  <section id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h"><img src="img/h-contact.png" alt="contact" width="192" height="36"></h2>
+    <p><img class="email" src="img/email.png" alt="" width="16" height="11">email: <a href="mailto:specialhugband@gmail.com">specialhugband@gmail.com</a></p>
+    <ul class="buttons" aria-label="social links">
+      <li><a href="https://www.instagram.com/specialhugband/"><img src="img/btn-instagram.png" alt="instagram" width="88" height="31"></a></li>
+      <li><a href="https://www.tiktok.com/@specialhugband"><img src="img/btn-tiktok.png" alt="tiktok" width="88" height="31"></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=61586478960741"><img src="img/btn-facebook.png" alt="facebook" width="88" height="31"></a></li>
+    </ul>
+
+    <!-- mailing list, the 1999 way: the form opens the visitor's email app with their address filled in.
+         when there is a real provider (buttondown, mailchimp...), swap the action="" for its form url and delete the fine print. -->
+    <form class="signup" id="mailing-list" action="mailto:specialhugband@gmail.com?subject=mailing%20list%20signup" method="post" enctype="text/plain">
+      <label for="signup-email">join the mailing list:</label>
+      <input id="signup-email" name="email" type="email" required placeholder="your@email.com" autocomplete="email">
+      <button type="submit">sign me up</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p class="counter">you are visitor number <img src="img/counter.png" alt="00000001" width="90" height="17"></p>
+</footer>
+
+</div>
+
+</body>
+</html>
